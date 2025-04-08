@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal World</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <button id="shareBtn" class="header-btn">🔗</button>
+    <h1 class="home-title">Home</h1>
+    <button onclick="location.href='index.html'" class="header-btn">🔄</button>
+    <div id="shareOptions" class="share-options hidden">
+      <p>Share this site:</p>
+      <input value="https://your-website-link.com" readonly />
+    </div>
+  </header>
+
+  <main>
+    <section class="featured-section">
+      <h2 class="featured-title">Featured Animals</h2>
+      <div class="video-slider">
+        <iframe src="https://www.youtube.com/embed/kTny1iFuTh0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/whksDmTR9YE" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/9SPixBok5ls" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/tsGdo5Uiy9Q" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Kfm9JFmhfkk" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <h2>Filter by Category</h2>
+      <div class="category-grid">
+        <div class="category-icon"><div class="icon-circle">🐱</div><p>Cats</p></div>
+        <div class="category-icon"><div class="icon-circle">🐶</div><p>Dogs</p></div>
+        <div class="category-icon"><div class="icon-circle">🦖</div><p>Dinosaur</p></div>
+        <div class="category-icon"><div class="icon-circle">🦁</div><p>Mammal</p></div>
+        <div class="category-icon"><div class="icon-circle">🦜</div><p>Bird</p></div>
+        <div class="category-icon"><div class="icon-circle">🦎</div><p>Reptile</p></div>
+        <div class="category-icon"><div class="icon-circle">🐠</div><p>Fish</p></div>
+        <div class="category-icon"><div class="icon-circle">🐚</div><p>Mollusk</p></div>
+        <div class="category-icon"><div class="icon-circle">🐸</div><p>Amphibian</p></div>
+        <div class="category-icon"><div class="icon-circle">🧽</div><p>Poriferan</p></div>
+        <div class="category-icon"><div class="icon-circle">🕷️</div><p>Arthropod</p></div>
+        <div class="category-icon"><div class="icon-circle">🪱</div><p>Annelid</p></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
